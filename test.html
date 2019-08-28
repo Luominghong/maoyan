@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" user-scalable=no">
+    <title>Title</title>
+</head>
+<style>
+    html,body,div,ul,li{
+        margin: 0;
+        padding: 0;
+    }
+    .nameUser>ul{
+        padding: 0px 20px 8px 20px;
+        border-bottom: 4px solid #D6D6D6;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        background: #FFFFFF;
+    }
+    .nameUser>ul>li{
+        flex: 1;
+        text-align: center;
+        height: 37px;
+        font-size: 14px;
+        line-height: 37px;
+        margin-bottom: -11px;
+    }
+    .active{
+        border-bottom: 4px solid #FFC300;
+    }
+</style>
+<body>
+<div class="nameUser">
+    <ul>
+        <li class="active">美团账号登陆</li>
+        <li>手机验证登陆</li>
+    </ul>
+</div>
+    <div>
+        <input type="text" placeholder="帐户名/手机号/Email">
+        <input type="password" placeholder="请输入你的密码">
+    </div>
+    <div>
+        <input type="text" placeholder="请输入手机号码"><button type="button" value="获取手机验证码">获取手机验证码</button>
+        <input type="text" placeholder="请输入手机验证码">
+    </div>
+    <button type="button" value="登陆">登陆</button>
+<script></script>
+</body>
+</html>
